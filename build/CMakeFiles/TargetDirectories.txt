@@ -1,0 +1,3 @@
+/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/p4.dir
+/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/edit_cache.dir
+/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/rebuild_cache.dir

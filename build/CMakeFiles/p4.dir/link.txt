@@ -1,0 +1,1 @@
+/run/current-system/sw/bin/clang++ -g -Xlinker --dependency-file=CMakeFiles/p4.dir/link.d CMakeFiles/p4.dir/src/main.cpp.o CMakeFiles/p4.dir/src/lib.cpp.o CMakeFiles/p4.dir/src/Network.cpp.o CMakeFiles/p4.dir/src/Router.cpp.o -o p4

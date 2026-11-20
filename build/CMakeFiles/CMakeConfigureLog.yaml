@@ -1,0 +1,1363 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/bin/"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/sbin/"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/bin/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/sbin/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/bin/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/sbin/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/bin/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/sbin/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/bin/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/sbin/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/bin/uname"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/sbin/uname"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/uname"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/bin/uname"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/sbin/uname"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/uname"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/bin/uname"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/sbin/uname"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/uname"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/bin/uname"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/sbin/uname"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/uname"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/bin/uname"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/sbin/uname"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/uname"
+      - "/run/wrappers/bin/uname"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/uname"
+      - "/var/lib/flatpak/exports/bin/uname"
+      - "/home/thirioh/.nix-profile/bin/uname"
+      - "/nix/profile/bin/uname"
+      - "/home/thirioh/.local/state/nix/profile/bin/uname"
+      - "/etc/profiles/per-user/thirioh/bin/uname"
+      - "/nix/var/nix/profiles/default/bin/uname"
+    found: "/run/current-system/sw/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.18.54 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/bin/"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/sbin/"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/bin/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/sbin/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/bin/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/sbin/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/bin/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/sbin/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/bin/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/sbin/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    searched_directories:
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/bin/gmake"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/sbin/gmake"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/gmake"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/bin/gmake"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/sbin/gmake"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/gmake"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/bin/gmake"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/sbin/gmake"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/gmake"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/bin/gmake"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/sbin/gmake"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/gmake"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/bin/gmake"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/sbin/gmake"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/gmake"
+      - "/run/wrappers/bin/gmake"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/home/thirioh/.nix-profile/bin/gmake"
+      - "/nix/profile/bin/gmake"
+      - "/home/thirioh/.local/state/nix/profile/bin/gmake"
+      - "/etc/profiles/per-user/thirioh/bin/gmake"
+      - "/nix/var/nix/profiles/default/bin/gmake"
+      - "/run/current-system/sw/bin/gmake"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/bin/make"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/sbin/make"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/make"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/bin/make"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/sbin/make"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/make"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/bin/make"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/sbin/make"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/make"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/bin/make"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/sbin/make"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/make"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/bin/make"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/sbin/make"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/make"
+      - "/run/wrappers/bin/make"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/make"
+      - "/var/lib/flatpak/exports/bin/make"
+      - "/home/thirioh/.nix-profile/bin/make"
+      - "/nix/profile/bin/make"
+      - "/home/thirioh/.local/state/nix/profile/bin/make"
+      - "/etc/profiles/per-user/thirioh/bin/make"
+      - "/nix/var/nix/profiles/default/bin/make"
+    found: "/run/current-system/sw/bin/make"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/run/current-system/sw/bin/clang++"
+    candidate_directories:
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/bin/"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/sbin/"
+      - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/bin/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/sbin/"
+      - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/bin/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/sbin/"
+      - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/bin/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/sbin/"
+      - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/bin/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/sbin/"
+      - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+    found: "/run/current-system/sw/bin/clang++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/"
+    found: "/run/current-system/sw/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /run/current-system/sw/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/ld.lld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-dlltool"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    found: "/run/current-system/sw/bin/llvm-addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/tapi"
+      - "/run/wrappers/bin/tapi"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/home/thirioh/.nix-profile/bin/tapi"
+      - "/nix/profile/bin/tapi"
+      - "/home/thirioh/.local/state/nix/profile/bin/tapi"
+      - "/etc/profiles/per-user/thirioh/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    searched_directories:
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ar-21.1"
+      - "/run/current-system/sw/bin/llvm-ar-21.1"
+      - "/run/wrappers/bin/llvm-ar-21.1"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/llvm-ar-21.1"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-21.1"
+      - "/home/thirioh/.nix-profile/bin/llvm-ar-21.1"
+      - "/nix/profile/bin/llvm-ar-21.1"
+      - "/home/thirioh/.local/state/nix/profile/bin/llvm-ar-21.1"
+      - "/etc/profiles/per-user/thirioh/bin/llvm-ar-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21.1"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ar-21"
+      - "/run/current-system/sw/bin/llvm-ar-21"
+      - "/run/wrappers/bin/llvm-ar-21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/llvm-ar-21"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-21"
+      - "/home/thirioh/.nix-profile/bin/llvm-ar-21"
+      - "/nix/profile/bin/llvm-ar-21"
+      - "/home/thirioh/.local/state/nix/profile/bin/llvm-ar-21"
+      - "/etc/profiles/per-user/thirioh/bin/llvm-ar-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ar21"
+      - "/run/current-system/sw/bin/llvm-ar21"
+      - "/run/wrappers/bin/llvm-ar21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/llvm-ar21"
+      - "/var/lib/flatpak/exports/bin/llvm-ar21"
+      - "/home/thirioh/.nix-profile/bin/llvm-ar21"
+      - "/nix/profile/bin/llvm-ar21"
+      - "/home/thirioh/.local/state/nix/profile/bin/llvm-ar21"
+      - "/etc/profiles/per-user/thirioh/bin/llvm-ar21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ar"
+    found: "/run/current-system/sw/bin/llvm-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    searched_directories:
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ranlib-21.1"
+      - "/run/current-system/sw/bin/llvm-ranlib-21.1"
+      - "/run/wrappers/bin/llvm-ranlib-21.1"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/llvm-ranlib-21.1"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-21.1"
+      - "/home/thirioh/.nix-profile/bin/llvm-ranlib-21.1"
+      - "/nix/profile/bin/llvm-ranlib-21.1"
+      - "/home/thirioh/.local/state/nix/profile/bin/llvm-ranlib-21.1"
+      - "/etc/profiles/per-user/thirioh/bin/llvm-ranlib-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21.1"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ranlib-21"
+      - "/run/current-system/sw/bin/llvm-ranlib-21"
+      - "/run/wrappers/bin/llvm-ranlib-21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/llvm-ranlib-21"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-21"
+      - "/home/thirioh/.nix-profile/bin/llvm-ranlib-21"
+      - "/nix/profile/bin/llvm-ranlib-21"
+      - "/home/thirioh/.local/state/nix/profile/bin/llvm-ranlib-21"
+      - "/etc/profiles/per-user/thirioh/bin/llvm-ranlib-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ranlib21"
+      - "/run/current-system/sw/bin/llvm-ranlib21"
+      - "/run/wrappers/bin/llvm-ranlib21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/llvm-ranlib21"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib21"
+      - "/home/thirioh/.nix-profile/bin/llvm-ranlib21"
+      - "/nix/profile/bin/llvm-ranlib21"
+      - "/home/thirioh/.local/state/nix/profile/bin/llvm-ranlib21"
+      - "/etc/profiles/per-user/thirioh/bin/llvm-ranlib21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/llvm-ranlib"
+    found: "/run/current-system/sw/bin/llvm-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/thirioh/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/thirioh/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/thirioh/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+    searched_directories:
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps-21.1"
+      - "/run/current-system/sw/bin/clang-scan-deps-21.1"
+      - "/run/wrappers/bin/clang-scan-deps-21.1"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps-21.1"
+      - "/nix/profile/bin/clang-scan-deps-21.1"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps-21.1"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps-21.1"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21.1"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps-21"
+      - "/run/current-system/sw/bin/clang-scan-deps-21"
+      - "/run/wrappers/bin/clang-scan-deps-21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps-21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps-21"
+      - "/nix/profile/bin/clang-scan-deps-21"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps-21"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps-21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps21"
+      - "/run/current-system/sw/bin/clang-scan-deps21"
+      - "/run/wrappers/bin/clang-scan-deps21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps21"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps21"
+      - "/nix/profile/bin/clang-scan-deps21"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps21"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps"
+      - "/run/current-system/sw/bin/clang-scan-deps"
+      - "/run/wrappers/bin/clang-scan-deps"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps"
+      - "/nix/profile/bin/clang-scan-deps"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps-21.1"
+      - "/run/current-system/sw/bin/clang-scan-deps-21.1"
+      - "/run/wrappers/bin/clang-scan-deps-21.1"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps-21.1"
+      - "/nix/profile/bin/clang-scan-deps-21.1"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps-21.1"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps-21.1"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21.1"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps-21"
+      - "/run/current-system/sw/bin/clang-scan-deps-21"
+      - "/run/wrappers/bin/clang-scan-deps-21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps-21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps-21"
+      - "/nix/profile/bin/clang-scan-deps-21"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps-21"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps-21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps21"
+      - "/run/current-system/sw/bin/clang-scan-deps21"
+      - "/run/wrappers/bin/clang-scan-deps21"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps21"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps21"
+      - "/nix/profile/bin/clang-scan-deps21"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps21"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps21"
+      - "/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/bin/clang-scan-deps"
+      - "/run/current-system/sw/bin/clang-scan-deps"
+      - "/run/wrappers/bin/clang-scan-deps"
+      - "/home/thirioh/.local/share/flatpak/exports/bin/clang-scan-deps"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps"
+      - "/home/thirioh/.nix-profile/bin/clang-scan-deps"
+      - "/nix/profile/bin/clang-scan-deps"
+      - "/home/thirioh/.local/state/nix/profile/bin/clang-scan-deps"
+      - "/etc/profiles/per-user/thirioh/bin/clang-scan-deps"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/nix/store/znhanpma0jihwbw5l6zs8yc25yng7clp-qtbase-6.11.2"
+        - "/nix/store/10553j4116y6jllliqpg5kz7d35bblab-qtdeclarative-6.11.2"
+        - "/nix/store/4xh0lwhdza9phcjnshgrzp0ljz8rir3j-qttools-6.11.2"
+        - "/nix/store/lr83fac9a1fhd2r78bwxcqyhf0xlqlf5-libglvnd-1.7.0-dev"
+        - "/nix/store/jvq8nlprvmwi0qpk46iay198qzcav962-libglvnd-1.7.0"
+      ENV{PATH}:
+        - "/run/wrappers/bin"
+        - "/home/thirioh/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/thirioh/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/thirioh/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/thirioh/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt"
+      binary: "/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt'
+        
+        Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_ba8a3/fast
+        /run/current-system/sw/bin/make  -f CMakeFiles/cmTC_ba8a3.dir/build.make CMakeFiles/cmTC_ba8a3.dir/build
+        make[1]: Entering directory '/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt'
+        Building CXX object CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o
+        /run/current-system/sw/bin/clang++   -v -MD -MT CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0skhb15j2szcq05929gs9m1dbpiydhb7-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0
+        Selected GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0skhb15j2szcq05929gs9m1dbpiydhb7-clang-21.1.8/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt -v -fcoverage-compilation-dir=/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt -nostdsysteminc -resource-dir /nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include -cxx-isystem /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0 -cxx-isystem /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-84-dev/include -fmacro-prefix-map=/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0 -fmacro-prefix-map=/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /run/current-system/sw/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0
+         /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu
+         /nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include
+         /nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include
+        End of search list.
+        Linking CXX executable cmTC_ba8a3
+        /run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8a3.dir/link.txt --verbose=1
+        clang version 21.1.8
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0skhb15j2szcq05929gs9m1dbpiydhb7-clang-21.1.8/bin
+        Found candidate GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0
+        Selected GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_ba8a3 /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib -L/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib -L/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -dynamic-linker=/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        /run/current-system/sw/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ba8a3
+        make[1]: Leaving directory '/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0]
+          add: [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include]
+          add: [/nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0] ==> [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0]
+        collapse include dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include] ==> [/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include]
+        collapse include dir [/nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include] ==> [/nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include]
+        implicit include dirs: [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0;/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu;/nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include;/nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt']
+        ignore line: []
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/cmake -E env VERBOSE=1 /run/current-system/sw/bin/make -f Makefile cmTC_ba8a3/fast]
+        ignore line: [/run/current-system/sw/bin/make  -f CMakeFiles/cmTC_ba8a3.dir/build.make CMakeFiles/cmTC_ba8a3.dir/build]
+        ignore line: [make[1]: Entering directory '/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/run/current-system/sw/bin/clang++   -v -MD -MT CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/0skhb15j2szcq05929gs9m1dbpiydhb7-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        ignore line: [Selected GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/0skhb15j2szcq05929gs9m1dbpiydhb7-clang-21.1.8/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt -v -fcoverage-compilation-dir=/home/thirioh/Projects/c++/lab/p4/build/CMakeFiles/CMakeScratch/TryCompile-ltgjtt -nostdsysteminc -resource-dir /nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root -dependency-file CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include -cxx-isystem /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0 -cxx-isystem /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include -fmacro-prefix-map=/nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.42-84-dev/include -fmacro-prefix-map=/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0 -fmacro-prefix-map=/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /run/current-system/sw/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0]
+        ignore line: [ /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/include/c++/15.3.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/mn2y6cydn5phwf2hxgfc3n7zjf48d5xg-clang-wrapper-21.1.8/resource-root/include]
+        ignore line: [ /nix/store/lbjwxax9n0457lgd83rqwpd1l9lgfl7r-glibc-2.42-84-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_ba8a3]
+        ignore line: [/run/current-system/sw/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8a3.dir/link.txt --verbose=1]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/0skhb15j2szcq05929gs9m1dbpiydhb7-clang-21.1.8/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        ignore line: [Selected GCC installation: /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_ba8a3 /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib -L/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib -L/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -dynamic-linker=/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o] ==> linker [/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld]
+        link line: [ "/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_ba8a3 /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib -L/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib -L/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -dynamic-linker=/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_ba8a3 /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o -L/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -L/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib -L/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib -L/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib -L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0 -dynamic-linker=/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o /nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o]
+          arg [/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ba8a3] ==> ignore
+          arg [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o] ==> obj [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o]
+          arg [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o] ==> obj [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o]
+          arg [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o] ==> obj [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o]
+          arg [-L/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib] ==> dir [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib]
+          arg [-L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+          arg [-L/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib] ==> dir [/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib]
+          arg [-L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib] ==> dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib]
+          arg [-L/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib] ==> dir [/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib]
+          arg [-L/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib] ==> dir [/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib]
+          arg [-L/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+          arg [-dynamic-linker=/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ba8a3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o] ==> obj [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o]
+          arg [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o] ==> obj [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld -m;elf
+        collapse library dir [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib] ==> [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib]
+        collapse library dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        collapse library dir [/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib] ==> [/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib]
+        collapse library dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0//lib] ==> [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib]
+        collapse library dir [/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib] ==> [/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib]
+        collapse library dir [/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib] ==> [/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib]
+        collapse library dir [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0] ==> [/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/Scrt1.o;/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crti.o;/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtbeginS.o;/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0/crtendS.o;/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib/crtn.o]
+        implicit dirs: [/nix/store/lm3pknxi0ipypy3lxh1wmm8wvvavdwrn-glibc-2.42-84/lib;/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib/gcc/x86_64-unknown-linux-gnu/15.3.0;/nix/store/604gsr59rj7dzd0nrhp143rpvf7gyiaz-gcc-15.3.0-lib/lib;/nix/store/8sjgd7q3mdks1rb7rbcv0sallhvrhai5-gcc-15.3.0/lib;/nix/store/wkiqjb44n5k0fwhmc523dvflspd47q3b-gcc-15.3.0-libgcc/lib;/nix/store/a3kjvvlm7f8abcmxh6f8dndiwc4vp726-clang-21.1.8-lib/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/run/current-system/sw/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/06cd0la3gmknmkfnl3h2l2d462hl757q-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...
